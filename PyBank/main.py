@@ -64,7 +64,7 @@ print("Greatest Decrease in Profits:" + str(g_decrease_month) + " $" + str(low))
 
 #create txt file
 
-output_file = os.path.join(".","PyBank", "Analysis", "budget_analysis.txt")
+output_file = os.path.join(".","PyBank", "analysis", "budget_analysis.txt")
 
 with open(output_file, 'w',) as txtfile:
     txtfile.write("Financial Analysis\n")
