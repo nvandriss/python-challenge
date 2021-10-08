@@ -1,7 +1,6 @@
 #import
 import os
 import csv
-from typing import List
 
 #set path
 csvpath = os.path.join("PyPoll","Resources","election_data.csv")
@@ -50,7 +49,7 @@ with open(csvpath, newline='') as csvfile:
 
 print("Election Results")
 print("--------------------")
-print("Total Votes:" + str(total_votes))
+print("Total Votes: " + str(total_votes))
 print("--------------------")
 print("Khan: " + str(k_percent) + "% " + str(khan_votes))
 print("Correy: " + str(c_percent) + "% " + str(correy_votes))
