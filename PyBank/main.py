@@ -16,7 +16,7 @@ greatest_decrease = 0
 g_decrease_month = 0
 past_price = 0
 
-#open csvpath
+#open and read csv file
 with open(csvpath, newline='') as csvfile:
     csvreader =csv.reader(csvfile, delimiter=",")
     csv_header = next(csvreader)
